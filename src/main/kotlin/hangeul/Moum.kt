@@ -1,0 +1,25 @@
+package hangeul
+
+object Moum {
+    const val A = 'ㅏ'
+    const val AE = 'ㅐ'
+    const val YA = 'ㅑ'
+    const val YAE = 'ㅒ'
+    const val EO = 'ㅓ'
+    const val E = 'ㅔ'
+    const val YEO = 'ㅕ'
+    const val YE = 'ㅖ'
+    const val O = 'ㅗ'
+    const val WA = 'ㅘ'
+    const val WAE = 'ㅙ'
+    const val OE = 'ㅚ'
+    const val YO = 'ㅛ'
+    const val U = 'ㅜ'
+    const val WO = 'ㅝ'
+    const val WE = 'ㅞ'
+    const val WI = 'ㅟ'
+    const val YU = 'ㅠ'
+    const val EU = 'ㅡ'
+    const val UI = 'ㅢ'
+    const val I = 'ㅣ'
+}

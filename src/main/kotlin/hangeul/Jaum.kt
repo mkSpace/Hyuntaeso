@@ -1,0 +1,35 @@
+package hangeul
+
+object Jaum {
+    const val KIYUK = 'ㄱ'
+    const val NIEUN = 'ㄴ'
+    const val DIGUT = 'ㄷ'
+    const val RIEUL = 'ㄹ'
+    const val MIEUM = 'ㅁ'
+    const val BIEUB = 'ㅂ'
+    const val SIEOT = 'ㅅ'
+    const val EIEUNG = 'ㅇ'
+    const val JIEUT = 'ㅈ'
+    const val CHIEUT = 'ㅊ'
+    const val KIEUT = 'ㅋ'
+    const val TIEUT = 'ㅌ'
+    const val PIEUT = 'ㅍ'
+    const val HIEUT = 'ㅎ'
+
+    const val SSANG_KIYUK = 'ㄲ'
+    const val SSANG_DIGUT = 'ㄸ'
+    const val SSANG_BIEUB = 'ㅃ'
+    const val SSANG_SIOT = 'ㅆ'
+    const val SSANG_JIUT = 'ㅉ'
+
+    const val KIYUK_SIOT = 'ㄳ'
+    const val NIEUN_JIEUT = 'ㄵ'
+    const val NIEUN_HIEUT = 'ㄶ'
+    const val NIEUN_KIYUK = 'ㄺ'
+    const val NIEUN_MIEUM = 'ㄻ'
+    const val RIEUL_BIEUB = 'ㄼ'
+    const val RIEUL_SIOT = 'ㄽ'
+    const val RIEUL_TIEUT = 'ㄾ'
+    const val RIEUL_HIEUT = 'ㅀ'
+    const val BIEUB_SIOT = 'ㅄ'
+}
