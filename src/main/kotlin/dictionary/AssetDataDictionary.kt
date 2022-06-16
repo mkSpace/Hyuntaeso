@@ -106,7 +106,7 @@ class AssetDataDictionary : Dictionary {
         val list = mutableListOf<String>()
         try {
             val reader = BufferedReader(
-                FileReader("D:\\Develope\\etc\\hangeul\\src\\main\\resources\\$assetName")
+                FileReader("/Users/jaemin/Desktop/WorkSpace/etc/Hyuntaeso/src/main/resources/$assetName")
             )
             var line: String? = reader.readLine()
             while (line != null) {

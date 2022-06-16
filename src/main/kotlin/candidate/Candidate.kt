@@ -12,4 +12,9 @@ class Candidate {
         if (componentList.isEmpty()) return "(empty)"
         return "${componentList.first().getSource()}(${componentList.map { it.getTypeName() }.joinToString(",")})"
     }
+
+    fun subtractNoun(): String? {
+        if(componentList.isEmpty()) return null
+        return componentList.first().getSource()
+    }
 }

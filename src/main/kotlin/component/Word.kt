@@ -51,4 +51,10 @@ class Word(
         result = 31 * result + eon.hashCode()
         return result
     }
+
+    override fun toString(): String {
+        return "Word(source='$source', eumso='$eumso', root='$root', pumsa='$pumsa', eon='$eon')"
+    }
+
+
 }
