@@ -1,7 +1,5 @@
 package hangeul
 
-import java.lang.Exception
-
 open class HangeulException : Exception {
     constructor()
 

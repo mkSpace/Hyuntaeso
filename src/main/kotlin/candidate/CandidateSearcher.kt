@@ -15,7 +15,7 @@ class CandidateSearcher(
 
     fun search() {
         val one = dictionary.find(eumso)
-        if(one.isNotEmpty()) {
+        if (one.isNotEmpty()) {
             val candies = CandidateArray()
             candies.add(createCandidate(one))
             candiList.add(candies)

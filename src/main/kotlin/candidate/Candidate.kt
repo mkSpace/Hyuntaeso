@@ -14,7 +14,7 @@ class Candidate {
     }
 
     fun subtractNoun(): String? {
-        if(componentList.isEmpty()) return null
+        if (componentList.isEmpty()) return null
         return componentList.first().getSource()
     }
 }
